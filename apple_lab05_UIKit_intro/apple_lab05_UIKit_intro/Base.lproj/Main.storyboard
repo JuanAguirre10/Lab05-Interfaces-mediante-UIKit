@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="apple_lab05_UIKit_intro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Diseno y Desarrollo de Software" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47U-9R-g6G">
+                                <rect key="frame" x="74" y="324" width="244" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="g7U-yL-DZe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Alumno: Juan Aguirre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sic-32-zui">
+                                <rect key="frame" x="60" y="395" width="281" height="62"/>
+                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266.33333333333326" id="BKR-ei-veg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="266.33333333333326" id="r93-ct-AN1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <color key="highlightedColor" systemColor="tableCellBlueTextColor"/>
+                                <color key="shadowColor" systemColor="viewFlipsideBackgroundColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Docente: Jaime Gomez - Juan Leon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYH-FF-IAl">
+                                <rect key="frame" x="60" y="501" width="272" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="272" id="SxG-hI-H3c"/>
+                                    <constraint firstAttribute="width" constant="272" id="ged-w7-LOU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="sic-32-zui" secondAttribute="bottom" constant="44" id="CxR-5E-fKu"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="centerX" secondItem="sic-32-zui" secondAttribute="centerX" id="DXv-wK-HLN"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="I89-pZ-etI"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="677" id="NGE-LQ-gsU"/>
+                            <constraint firstItem="sic-32-zui" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Png-RU-6BQ"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="centerY" secondItem="sic-32-zui" secondAttribute="centerY" id="SfJ-NQ-f8X"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="sic-32-zui" secondAttribute="bottom" constant="44" id="W0E-K5-vr1"/>
+                            <constraint firstItem="47U-9R-g6G" firstAttribute="centerX" secondItem="sic-32-zui" secondAttribute="centerX" id="XEc-5o-nPw"/>
+                            <constraint firstItem="sic-32-zui" firstAttribute="firstBaseline" secondItem="47U-9R-g6G" secondAttribute="baseline" constant="32" symbolType="layoutAnchor" id="bMJ-Kq-HgY"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="sic-32-zui" secondAttribute="bottom" constant="-209.33333333333326" id="deW-0b-PNl"/>
+                            <constraint firstItem="sic-32-zui" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dsv-Fl-LGD"/>
+                            <constraint firstItem="sic-32-zui" firstAttribute="top" secondItem="47U-9R-g6G" secondAttribute="bottom" constant="3.6666666666666856" id="nkz-5s-el6"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="47U-9R-g6G" secondAttribute="bottom" constant="673" id="ocP-BN-4ou"/>
+                            <constraint firstItem="47U-9R-g6G" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qDB-Do-Gwg"/>
+                            <constraint firstItem="sic-32-zui" firstAttribute="top" secondItem="47U-9R-g6G" secondAttribute="bottom" constant="3.6666666666666856" id="wLY-3u-jys"/>
+                            <constraint firstItem="GYH-FF-IAl" firstAttribute="top" secondItem="sic-32-zui" secondAttribute="bottom" constant="-395.66666666666652" id="wOw-OD-WK8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.832061068702288" y="136.61971830985917"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78431372549019607" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableCellBlueTextColor">
+            <color red="0.0" green="0.53333333333333333" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="underPageBackgroundColor">
+            <color red="0.70980392156862748" green="0.71764705882352942" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
